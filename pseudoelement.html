@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        h3::after{
+            content:"-.pdf";
+            color: red;
+        }
+     p::first-letter{
+        font-size: 3em;
+     }
+     p::first-line{
+        background-color: blue;
+     }
+     ::selection{
+         background-color: yellow;
+     }
+    </style>
+</head>
+<body>
+    <h3>My heading-1</h3>
+    <h3>My heading-2</h3>
+    <h3>My heading-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, sit? Distinctio provident earum fugit accusamus magnam incidunt repudiandae maxime recusandae!</p>
+    <p>Numquam, temporibus vel, sit, modi omnis illum officia dignissimos ducimus ipsum deleniti distinctio quo rerum tempora incidunt quidem dolorem. Sequi?</p>
+    <p>Nemo ullam aperiam quae fugiat necessitatibus fuga dignissimos, soluta ipsa praesentium maxime assumenda vitae amet, debitis voluptate tempore optio obcaecati!</p>
+</body>
+</html>
